@@ -1,0 +1,40 @@
+{
+    "version": "1.1.1",
+    "description": "Review your League of Legends games locally: waves, deaths, gold swings",
+    "homepage": "https://github.com/Mattbusel/lolcoach",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Mattbusel/lolcoach/releases/download/v1.1.1/lolcoach-review-v1.1.1-windows-x86_64.zip",
+            "hash": "5e8be8cebd9f0626b051210f04652876aa1d75542b16e4bd8201b8ccd34f4bc4",
+            "extract_dir": "lolcoach-review-v1.1.1-windows-x86_64"
+        }
+    },
+    "bin": [
+        [
+            "LoLCoach.exe",
+            "lolcoach"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/Mattbusel/lolcoach"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Mattbusel/lolcoach/releases/download/v$version/lolcoach-review-v$version-windows-x86_64.zip",
+                "extract_dir": "lolcoach-review-v$version-windows-x86_64"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS.txt"
+        }
+    },
+    "notes": "Run 'lolcoach' (or the LoLCoach Start menu shortcut); the app opens in your browser at http://127.0.0.1:8765.",
+    "shortcuts": [
+        [
+            "LoLCoach.exe",
+            "LoLCoach"
+        ]
+    ]
+}
