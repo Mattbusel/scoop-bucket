@@ -1,0 +1,28 @@
+{
+    "version": "0.3.0",
+    "description": "Rank the lines of a prompt by token cost, with a budget check for CI",
+    "homepage": "https://github.com/Mattbusel/tokenviz",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Mattbusel/tokenviz/releases/download/v0.3.0/tokenviz-v0.3.0-windows-x86_64.zip",
+            "hash": "5c787c1b4ab35a2328661f150421648a089ff29ae47c1d50b515796cf1177a06",
+            "extract_dir": "tokenviz-v0.3.0-windows-x86_64"
+        }
+    },
+    "bin": "tokenviz.exe",
+    "checkver": {
+        "github": "https://github.com/Mattbusel/tokenviz"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Mattbusel/tokenviz/releases/download/v$version/tokenviz-v$version-windows-x86_64.zip",
+                "extract_dir": "tokenviz-v$version-windows-x86_64"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS.txt"
+        }
+    }
+}

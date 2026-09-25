@@ -1,0 +1,28 @@
+{
+    "version": "0.3.0",
+    "description": "See how a tokenizer splits your prompt and what to cut, with measured savings",
+    "homepage": "https://github.com/Mattbusel/Token-Visualizer",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Mattbusel/Token-Visualizer/releases/download/v0.3.0/token-visualizer-v0.3.0-windows-x86_64.zip",
+            "hash": "45d0a5af8b7dbecc7b22098b1946bf9e5efb7f2963b5527ef99af00b0cd9668a",
+            "extract_dir": "token-visualizer-v0.3.0-windows-x86_64"
+        }
+    },
+    "bin": "token-visualizer.exe",
+    "checkver": {
+        "github": "https://github.com/Mattbusel/Token-Visualizer"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Mattbusel/Token-Visualizer/releases/download/v$version/token-visualizer-v$version-windows-x86_64.zip",
+                "extract_dir": "token-visualizer-v$version-windows-x86_64"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS.txt"
+        }
+    }
+}
