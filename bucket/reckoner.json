@@ -1,0 +1,28 @@
+{
+    "version": "0.2.2",
+    "description": "Group rows that name the same company, merging only on proof, never guesses",
+    "homepage": "https://github.com/Mattbusel/reckoner",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Mattbusel/reckoner/releases/download/v0.2.2/reckoner-v0.2.2-windows-x86_64.zip",
+            "hash": "27370bdb3318a3924eedc4ddfbb370418adf9b04d1704c59815a5bd542ebe3b0",
+            "extract_dir": "reckoner-v0.2.2-windows-x86_64"
+        }
+    },
+    "bin": "reckoner.exe",
+    "checkver": {
+        "github": "https://github.com/Mattbusel/reckoner"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Mattbusel/reckoner/releases/download/v$version/reckoner-v$version-windows-x86_64.zip",
+                "extract_dir": "reckoner-v$version-windows-x86_64"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS.txt"
+        }
+    }
+}
