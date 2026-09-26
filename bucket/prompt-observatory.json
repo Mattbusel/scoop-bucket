@@ -1,0 +1,29 @@
+{
+    "version": "0.3.0",
+    "description": "Local dashboard that streams an LLM reply and flags claims worth checking",
+    "homepage": "https://github.com/Mattbusel/prompt-observatory",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Mattbusel/prompt-observatory/releases/download/v0.3.0/prompt-observatory-v0.3.0-windows-x86_64.zip",
+            "hash": "5f7e5f995e021908db0b535b0c2ffc84a53b7b3595a46d22902206635d7274f2",
+            "extract_dir": "prompt-observatory-v0.3.0-windows-x86_64"
+        }
+    },
+    "bin": "prompt-observatory.exe",
+    "checkver": {
+        "github": "https://github.com/Mattbusel/prompt-observatory"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Mattbusel/prompt-observatory/releases/download/v$version/prompt-observatory-v$version-windows-x86_64.zip",
+                "extract_dir": "prompt-observatory-v$version-windows-x86_64"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS.txt"
+        }
+    },
+    "notes": "Run prompt-observatory, then open http://127.0.0.1:7860. No API key? Install Ollama and run: ollama pull qwen2.5:1.5b"
+}
