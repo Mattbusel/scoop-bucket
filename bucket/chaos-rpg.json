@@ -1,0 +1,44 @@
+{
+    "version": "2.2.1",
+    "description": "Roguelike where every roll is a chain of real math (Lorenz, Mandelbrot, Collatz). Window, Proof Engine and terminal versions.",
+    "homepage": "https://github.com/Mattbusel/chaos-rpg",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Mattbusel/chaos-rpg/releases/download/v2.2.1/chaos-rpg-v2.2.1-x86_64-pc-windows-msvc.zip",
+            "hash": "50b83f124d2bbe173dbba231a17a4bebc346cbeaa4ab11765512b4b6700dc957",
+            "extract_dir": "chaos-rpg-v2.2.1-x86_64-pc-windows-msvc"
+        }
+    },
+    "bin": [
+        "chaos-rpg.exe",
+        "chaos-rpg-graphical.exe",
+        "chaos-rpg-proof.exe"
+    ],
+    "shortcuts": [
+        [
+            "chaos-rpg-graphical.exe",
+            "CHAOS RPG"
+        ],
+        [
+            "chaos-rpg-proof.exe",
+            "CHAOS RPG (Proof Engine preview)"
+        ]
+    ],
+    "persist": "chaos_config.toml",
+    "notes": "Start CHAOS RPG from the Start Menu, or run 'chaos-rpg-graphical' (window), 'chaos-rpg-proof' (Proof Engine preview) or 'chaos-rpg' (terminal). Edit settings in chaos_config.toml inside $persist_dir",
+    "checkver": {
+        "github": "https://github.com/Mattbusel/chaos-rpg"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Mattbusel/chaos-rpg/releases/download/v$version/chaos-rpg-v$version-x86_64-pc-windows-msvc.zip",
+                "extract_dir": "chaos-rpg-v$version-x86_64-pc-windows-msvc"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS.txt"
+        }
+    }
+}
