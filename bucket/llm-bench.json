@@ -1,13 +1,13 @@
 {
-    "version": "0.2.1",
+    "version": "0.2.2",
     "description": "Compare LLM models on p50/p99 latency, tokens per second and cost in one table",
     "homepage": "https://github.com/Mattbusel/llm-bench",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Mattbusel/llm-bench/releases/download/v0.2.1/llm-bench-v0.2.1-x86_64-pc-windows-msvc.zip",
-            "hash": "31a5d5368585c2a4b2bf3f7558814c2f9fb86bfcfbe36e7cd1861fc3a877d7bf",
-            "extract_dir": "llm-bench-v0.2.1-x86_64-pc-windows-msvc"
+            "url": "https://github.com/Mattbusel/llm-bench/releases/download/v0.2.2/llm-bench-v0.2.2-x86_64-pc-windows-msvc.zip",
+            "hash": "88266a4fc0551f1a291b8adfc40dffa48cb82573ab5e3481ddd4da18adf10c85",
+            "extract_dir": "llm-bench-v0.2.2-x86_64-pc-windows-msvc"
         }
     },
     "bin": "llm-bench.exe",
