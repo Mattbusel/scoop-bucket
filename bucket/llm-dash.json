@@ -1,13 +1,13 @@
 {
-    "version": "1.2.1",
+    "version": "1.2.2",
     "description": "See what your LLM API calls cost: live terminal dashboard for spend, budget and per-model costs",
-    "homepage": "https://github.com/Mattbusel/llm-cost-dashboard",
+    "homepage": "https://mattbusel.github.io/llm-cost-dashboard/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Mattbusel/llm-cost-dashboard/releases/download/v1.2.1/llm-cost-dashboard-v1.2.1-x86_64-pc-windows-msvc.zip",
-            "hash": "b781b53ba4d8078427deeb1a1a2e69724be52ca94c8ae14b1fc8d6b1625c4112",
-            "extract_dir": "llm-cost-dashboard-v1.2.1-x86_64-pc-windows-msvc"
+            "url": "https://github.com/Mattbusel/llm-cost-dashboard/releases/download/v1.2.2/llm-cost-dashboard-v1.2.2-x86_64-pc-windows-msvc.zip",
+            "hash": "bf3e6e37d041da516b083094f1775cc6a1330237eacac661b24ff65cb5aa8633",
+            "extract_dir": "llm-cost-dashboard-v1.2.2-x86_64-pc-windows-msvc"
         }
     },
     "bin": "llm-dash.exe",
