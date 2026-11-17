@@ -1,13 +1,13 @@
 {
-    "version": "1.2.1",
+    "version": "1.4.1",
     "description": "Adaptive job router for Tokio: runs a simulated workload with a live web dashboard at http://127.0.0.1:8080.",
     "homepage": "https://github.com/Mattbusel/HelixRouter-adaptive-async-compute-router-",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Mattbusel/HelixRouter-adaptive-async-compute-router-/releases/download/v1.2.1/helixrouter-v1.2.1-x86_64-pc-windows-msvc.zip",
-            "hash": "eaf0d70c1fcdfceecb29341f461d4aec237aae3d130b63635e80d79d122e5356",
-            "extract_dir": "helixrouter-v1.2.1-x86_64-pc-windows-msvc"
+            "url": "https://github.com/Mattbusel/HelixRouter-adaptive-async-compute-router-/releases/download/v1.4.1/helixrouter-v1.4.1-x86_64-pc-windows-msvc.zip",
+            "hash": "b2c6dfbb0a41cbb66def602152cae100a85a9f95b7fd75c51934268f38e16c6f",
+            "extract_dir": "helixrouter-v1.4.1-x86_64-pc-windows-msvc"
         }
     },
     "bin": "helixrouter.exe",
