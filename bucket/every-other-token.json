@@ -1,0 +1,28 @@
+{
+    "version": "5.0.2",
+    "description": "Watch an LLM answer token by token and see how sure it was about each word (CLI, terminal UI and web UI).",
+    "homepage": "https://github.com/Mattbusel/Every-Other-Token",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Mattbusel/Every-Other-Token/releases/download/v5.0.2/every-other-token-v5.0.2-x86_64-pc-windows-msvc.zip",
+            "hash": "1b1a5dc47e7e89e1549dce180ac7a6eb5a18390df04e85b8443a7a7a2f429822",
+            "extract_dir": "every-other-token-v5.0.2-x86_64-pc-windows-msvc"
+        }
+    },
+    "bin": "every-other-token.exe",
+    "checkver": {
+        "github": "https://github.com/Mattbusel/Every-Other-Token"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Mattbusel/Every-Other-Token/releases/download/v$version/every-other-token-v$version-x86_64-pc-windows-msvc.zip",
+                "extract_dir": "every-other-token-v$version-x86_64-pc-windows-msvc",
+                "hash": {
+                    "url": "$url.sha256"
+                }
+            }
+        }
+    }
+}
