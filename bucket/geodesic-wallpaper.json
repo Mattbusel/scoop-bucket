@@ -1,13 +1,13 @@
 {
-    "version": "1.5.1",
+    "version": "1.6.2",
     "description": "Animated Windows wallpaper: glowing geodesics flowing over curved 3D surfaces",
     "homepage": "https://github.com/Mattbusel/geodesic-wallpaper",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Mattbusel/geodesic-wallpaper/releases/download/v1.5.1/geodesic-wallpaper-v1.5.1-x86_64-pc-windows-msvc.zip",
-            "hash": "4b52ff124a3c74754f6756331d68b72ad52b6da031447ae27e42b816774bdf3b",
-            "extract_dir": "geodesic-wallpaper-v1.5.1-x86_64-pc-windows-msvc"
+            "url": "https://github.com/Mattbusel/geodesic-wallpaper/releases/download/v1.6.2/geodesic-wallpaper-v1.6.2-x86_64-pc-windows-msvc.zip",
+            "hash": "9d7e836c45ed19903c53b218d1401cbd76c2aa1f0f27f9a266868ca73fa8d266",
+            "extract_dir": "geodesic-wallpaper-v1.6.2-x86_64-pc-windows-msvc"
         }
     },
     "bin": "geodesic-wallpaper.exe",

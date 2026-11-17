@@ -1,13 +1,13 @@
 {
-    "version": "2.2.1",
+    "version": "2.3.0",
     "description": "Roguelike where every roll is a chain of real math (Lorenz, Mandelbrot, Collatz). Window, Proof Engine and terminal versions.",
     "homepage": "https://github.com/Mattbusel/chaos-rpg",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Mattbusel/chaos-rpg/releases/download/v2.2.1/chaos-rpg-v2.2.1-x86_64-pc-windows-msvc.zip",
-            "hash": "50b83f124d2bbe173dbba231a17a4bebc346cbeaa4ab11765512b4b6700dc957",
-            "extract_dir": "chaos-rpg-v2.2.1-x86_64-pc-windows-msvc"
+            "url": "https://github.com/Mattbusel/chaos-rpg/releases/download/v2.3.0/chaos-rpg-v2.3.0-x86_64-pc-windows-msvc.zip",
+            "hash": "36c7d35553bc2d08050b04b8f25fd7d53cb8cc9d53e8f1e58929e55884e44fcb",
+            "extract_dir": "chaos-rpg-v2.3.0-x86_64-pc-windows-msvc"
         }
     },
     "bin": [
