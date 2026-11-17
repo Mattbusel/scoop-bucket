@@ -1,13 +1,13 @@
 {
-    "version": "2.4.2",
+    "version": "2.4.3",
     "description": "Queue, deduplication and a circuit breaker in front of LLM APIs: the orchestrator server and CLI.",
     "homepage": "https://github.com/Mattbusel/tokio-prompt-orchestrator",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Mattbusel/tokio-prompt-orchestrator/releases/download/v2.4.2/orchestrator-v2.4.2-x86_64-pc-windows-msvc.zip",
-            "hash": "da62f0c5f60183123799fb3d04e459efeeffd24abf416a0b77b27da45f0a45d3",
-            "extract_dir": "orchestrator-v2.4.2-x86_64-pc-windows-msvc"
+            "url": "https://github.com/Mattbusel/tokio-prompt-orchestrator/releases/download/v2.4.3/orchestrator-v2.4.3-x86_64-pc-windows-msvc.zip",
+            "hash": "b83a2d8891fb7c0d490cba58472240290f35ac35865810df68b87dc7c1e4bcac",
+            "extract_dir": "orchestrator-v2.4.3-x86_64-pc-windows-msvc"
         }
     },
     "bin": [
